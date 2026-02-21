@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerencyOOUsers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6920ca61c3c6f3868d411cfab9c8a9db64be43d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d859f9cbd6b7d4dae55b4b03f3ba51249de2b8a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerencyOOUsers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerencyOOUsers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|c:\\users\\user\\documents\\programa\u00E7\u00E3o\\c#\\gerency oo users\\gerencyoousers\\gerencyoousers\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|solutionrelative:gerencyoousers\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|c:\\users\\user\\documents\\programa\u00E7\u00E3o\\c#\\gerency oo users\\gerencyoousers\\gerencyoousers\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|solutionrelative:gerencyoousers\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|c:\\users\\user\\documents\\programa\u00E7\u00E3o\\c#\\gerency oo users\\gerencyoousers\\gerencyoousers\\views\\acesso\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|solutionrelative:gerencyoousers\\views\\acesso\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|c:\\users\\user\\documents\\programa\u00E7\u00E3o\\c#\\gerency oo users\\gerencyoousers\\gerencyoousers\\controllers\\acessocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|solutionrelative:gerencyoousers\\controllers\\acessocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|c:\\users\\user\\documents\\programa\u00E7\u00E3o\\c#\\gerency oo users\\gerencyoousers\\gerencyoousers\\views\\administrador\\registros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|solutionrelative:gerencyoousers\\views\\administrador\\registros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|c:\\users\\user\\documents\\programa\u00E7\u00E3o\\c#\\gerency oo users\\gerencyoousers\\gerencyoousers\\views\\acesso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|solutionrelative:gerencyoousers\\views\\acesso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|c:\\users\\user\\documents\\programa\u00E7\u00E3o\\c#\\gerency oo users\\gerencyoousers\\gerencyoousers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316CA6A5-871B-3AA9-9710-FFA1D069589F}|GerencyOOUsers\\GerencyOOUsers.csproj|solutionrelative:gerencyoousers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Views\\Acesso\\Index.cshtml",
-              "RelativeDocumentMoniker": "GerencyOOUsers\\Views\\Acesso\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Views\\Acesso\\Index.cshtml",
-              "RelativeToolTip": "GerencyOOUsers\\Views\\Acesso\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Program.cs",
+              "RelativeDocumentMoniker": "GerencyOOUsers\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Program.cs",
+              "RelativeToolTip": "GerencyOOUsers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T22:24:31.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registros.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Views\\Administrador\\Registros.cshtml",
+              "RelativeDocumentMoniker": "GerencyOOUsers\\Views\\Administrador\\Registros.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Views\\Administrador\\Registros.cshtml",
+              "RelativeToolTip": "GerencyOOUsers\\Views\\Administrador\\Registros.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-17T17:19:23.514Z",
+              "WhenOpened": "2026-02-19T22:19:56.055Z",
               "EditorCaption": ""
             },
             {
@@ -49,35 +62,22 @@
               "RelativeDocumentMoniker": "GerencyOOUsers\\Views\\Acesso\\Administrador.cshtml",
               "ToolTip": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Views\\Acesso\\Administrador.cshtml",
               "RelativeToolTip": "GerencyOOUsers\\Views\\Acesso\\Administrador.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-17T17:17:58.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AcessoController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Controllers\\AcessoController.cs",
-              "RelativeDocumentMoniker": "GerencyOOUsers\\Controllers\\AcessoController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Controllers\\AcessoController.cs",
-              "RelativeToolTip": "GerencyOOUsers\\Controllers\\AcessoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T16:53:23.627Z",
+              "WhenOpened": "2026-02-19T21:43:31.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "GerencyOOUsers\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Models\\Usuario.cs",
-              "RelativeToolTip": "GerencyOOUsers\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "AdministradorController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Controllers\\AdministradorController.cs",
+              "RelativeDocumentMoniker": "GerencyOOUsers\\Controllers\\AdministradorController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\PROGRAMA\u00C7\u00C3O\\C#\\Gerency OO Users\\GerencyOOUsers\\GerencyOOUsers\\Controllers\\AdministradorController.cs",
+              "RelativeToolTip": "GerencyOOUsers\\Controllers\\AdministradorController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:12:58.498Z",
+              "WhenOpened": "2026-02-19T20:37:37.513Z",
               "EditorCaption": ""
             }
           ]

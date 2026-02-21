@@ -18,15 +18,14 @@ namespace GerencyOOUsers.Controllers
             return View();
         }
 
-        [HttpGet]
         public IActionResult Registros()
         {
-            return View(); 
+            return View("Registros"); 
         }
 
         public IActionResult NovoRegistro()
         {
-            return View();
+            return View("NovoRegistro");
         }
 
         [HttpPost]

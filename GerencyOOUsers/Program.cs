@@ -1,7 +1,14 @@
+using GerencyOOUsers.Data;
+using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connection = builder.Configuration.
+    GetConnectionString("UsersConnectionString");
+
+builder.Services.AddDbContext<UsuariosDb>(op => op.
+    UseMySql(connection, new MySqlServerVersion(new Version(8, 4, 8))));
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
