@@ -9,7 +9,9 @@ var connection = builder.Configuration.
 
 builder.Services.AddDbContext<UsuariosDb>(op => op.
     UseMySql(connection, new MySqlServerVersion(new Version(8, 4, 8))));
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddOpenApi();
 
 var app = builder.Build();
 

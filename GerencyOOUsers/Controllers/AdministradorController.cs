@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GerencyOOUsers.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class AdministradorController : Controller
     {
         private readonly UsuariosDb _contextUsersDb;
@@ -18,11 +20,13 @@ namespace GerencyOOUsers.Controllers
             return View();
         }
 
+        [HttpGet("Registros")]
         public IActionResult Registros()
         {
             return View("Registros"); 
         }
 
+        [HttpGet("NovoRegistro")]
         public IActionResult NovoRegistro()
         {
             return View("NovoRegistro");
