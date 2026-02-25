@@ -7,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 var connection = builder.Configuration.
     GetConnectionString("UsersConnectionString");
 
+Console.WriteLine(connection);
+
 builder.Services.AddDbContext<UsuariosDb>(op => op.
     UseMySql(connection, new MySqlServerVersion(new Version(8, 4, 8))));
 

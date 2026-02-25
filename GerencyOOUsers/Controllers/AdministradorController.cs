@@ -15,11 +15,6 @@ namespace GerencyOOUsers.Controllers
             _contextUsersDb = usuariosDb;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
         [HttpGet("Registros")]
         public IActionResult Registros()
         {
@@ -32,11 +27,11 @@ namespace GerencyOOUsers.Controllers
             return View("NovoRegistro");
         }
 
-        [HttpPost]
+        [HttpPost("NovoRegistro")]
         public async Task<IActionResult> NovoRegistro(Usuario usuario)
         {
             _contextUsersDb.Usuarios.Add(usuario);
-            await _contextUsersDb.SaveChangesAsync();
+            await _contextUsersDb.SaveChangesAsync(); // erro de conexão
             return Ok(usuario);
         }
     }
