@@ -3,12 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GerencyOOUsers.Data
 {
-    public class UsuariosDb : DbContext
+    public class UsuariosContext : DbContext
     {
-        public UsuariosDb(DbContextOptions<UsuariosDb> options) : base(options)
-        {
-
-        }
+        public UsuariosContext(DbContextOptions<UsuariosContext> options) : base(options) {}
 
         public DbSet<Usuario> Usuarios { get; set; }
     }

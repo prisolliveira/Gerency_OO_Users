@@ -8,9 +8,9 @@ namespace GerencyOOUsers.Controllers
     [Route("api/[controller]")]
     public class AdministradorController : Controller
     {
-        private readonly UsuariosDb _contextUsersDb;
+        private readonly UsuariosContext _contextUsersDb;
 
-        public AdministradorController(UsuariosDb usuariosDb)
+        public AdministradorController(UsuariosContext usuariosDb)
         {
             _contextUsersDb = usuariosDb;
         }

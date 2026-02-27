@@ -191,7 +191,6 @@ C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\Gerency
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\staticwebassets.build.endpoints.json
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\swae.build.ex.cache
-C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\GerencyO.C1475425.Up2Date
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\GerencyOOUsers.dll
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\refint\GerencyOOUsers.dll
