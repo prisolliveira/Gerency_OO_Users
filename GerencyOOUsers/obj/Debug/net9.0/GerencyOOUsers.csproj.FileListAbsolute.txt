@@ -197,3 +197,4 @@ C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\Gerency
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\GerencyOOUsers.pdb
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\GerencyOOUsers.genruntimeconfig.cache
 C:\Users\user\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\ref\GerencyOOUsers.dll
+C:\Users\User\Documents\PROGRAMAÇÃO\C#\Gerency OO Users\GerencyOOUsers\GerencyOOUsers\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
