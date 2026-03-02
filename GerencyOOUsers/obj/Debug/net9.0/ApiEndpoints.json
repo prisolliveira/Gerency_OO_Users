@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "GerencyOOUsers.Controllers.AdministradorController",
-    "Method": "NovoRegistro",
+    "Method": "CriarRegistro",
     "RelativePath": "api/Administrador/NovoRegistro",
     "HttpMethod": "POST",
     "IsController": true,
@@ -27,8 +27,34 @@
   },
   {
     "ContainingType": "GerencyOOUsers.Controllers.AdministradorController",
+    "Method": "RemoverRegistro",
+    "RelativePath": "api/Administrador/NovoRegistro/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerencyOOUsers.Controllers.AdministradorController",
     "Method": "Registros",
     "RelativePath": "api/Administrador/Registros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerencyOOUsers.Controllers.AdministradorController",
+    "Method": "ListarRegistros",
+    "RelativePath": "api/Administrador/Resgistros",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

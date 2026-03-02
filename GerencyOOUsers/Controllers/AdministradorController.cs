@@ -1,6 +1,7 @@
 ﻿using GerencyOOUsers.Data;
 using GerencyOOUsers.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace GerencyOOUsers.Controllers
 {
@@ -18,7 +19,13 @@ namespace GerencyOOUsers.Controllers
         [HttpGet("Registros")]
         public IActionResult Registros()
         {
-            return View("Registros"); 
+            return View("Registros");
+        }
+
+        [HttpGet("Resgistros")]
+        public async Task<IActionResult> ListarRegistros()
+        { 
+            return Ok(await _contextUsersDb.Usuarios.ToListAsync());
         }
 
         [HttpGet("NovoRegistro")]
@@ -28,11 +35,21 @@ namespace GerencyOOUsers.Controllers
         }
 
         [HttpPost("NovoRegistro")]
-        public async Task<IActionResult> NovoRegistro(Usuario usuario)
+        public async Task<IActionResult> CriarRegistro(Usuario usuario)
         {
             _contextUsersDb.Usuarios.Add(usuario);
-            await _contextUsersDb.SaveChangesAsync(); // erro de conexão
+            await _contextUsersDb.SaveChangesAsync();
             return Ok(usuario);
+        }
+
+        [HttpDelete("NovoRegistro/{id}")]
+        public async Task<IActionResult> RemoverRegistro(int id)
+        {
+            var u = await _contextUsersDb.Usuarios.FindAsync(id);
+            _contextUsersDb.Usuarios.Remove(u);
+            await _contextUsersDb.SaveChangesAsync();
+            return Ok();
         }
     }
 }
+// criação de listagem e deleção de registros
