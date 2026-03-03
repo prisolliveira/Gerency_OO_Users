@@ -7,31 +7,19 @@ namespace GerencyOOUsers.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class AdministradorController : Controller
+    public class AdministradorController : ControllerBase
     {
         private readonly UsuariosContext _contextUsersDb;
 
         public AdministradorController(UsuariosContext usuariosDb)
         {
             _contextUsersDb = usuariosDb;
-        }
-
-        [HttpGet("Registros")]
-        public IActionResult Registros()
-        {
-            return View("Registros");
-        }
+        }      
 
         [HttpGet("Resgistros")]
         public async Task<IActionResult> ListarRegistros()
         { 
             return Ok(await _contextUsersDb.Usuarios.ToListAsync());
-        }
-
-        [HttpGet("NovoRegistro")]
-        public IActionResult NovoRegistro()
-        {
-            return View("NovoRegistro");
         }
 
         [HttpPost("NovoRegistro")]
@@ -52,4 +40,3 @@ namespace GerencyOOUsers.Controllers
         }
     }
 }
-// criação de listagem e deleção de registros
