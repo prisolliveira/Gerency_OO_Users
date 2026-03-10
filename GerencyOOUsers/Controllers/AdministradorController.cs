@@ -38,5 +38,32 @@ namespace GerencyOOUsers.Controllers
             await _contextUsersDb.SaveChangesAsync();
             return Ok();
         }
+
+        [HttpPatch("NovoRegistro/{id}")]
+        
+        public async Task<IActionResult> AtualizarUsuario(int id, UsuarioDTO usuarioDTO)
+        {
+            Usuario usuario = await _contextUsersDb.Usuarios.FindAsync(id);
+
+            if(usuario == null)
+            {
+                return NotFound();
+            }
+
+            usuario.Nome = usuarioDTO.Nome;
+            usuario.Sobrenome = usuarioDTO.Sobrenome;
+            usuario.DataNascimento = usuarioDTO.DataNascimento;
+            usuario.Nacionalidade = usuarioDTO.Nacionalidade;
+            usuario.Email = usuarioDTO.Email;
+            usuario.Telefone = usuarioDTO.Telefone;
+            usuario.Cargo = usuarioDTO.Cargo;
+
+            await _contextUsersDb.SaveChangesAsync();
+            return Ok();
+        }
+
+        // criar metodo de atualização * (sucesso)
+        // criar outras propriedades para usuario * (sucesso)
+        // criar formulário que preenche os valores e adiciona no bd
     }
 }

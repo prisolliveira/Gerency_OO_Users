@@ -1,0 +1,35 @@
+﻿namespace GerencyOOUsers.Models.Enums
+{
+    public enum Cargos
+    {
+        Diretor,
+        Gerente,
+        Supervisor,
+        Coordenador,
+        Analista,
+        Assistente,
+        Auxiliar,
+        Estagiário,
+        Consultor,
+        Especialista,
+        Técnico,
+        Operador,
+        Secretário,
+        Recepcionista,
+        Administrador,
+        Contador,
+        Financeiro,
+        Comprador,
+        Vendedor,
+        Atendente,
+        Suporte_Técnico,
+        Recursos_Humanos,
+        Marketing,
+        Logística,
+        Almoxarife,
+        Controlador_de_Qualidade,
+        Segurança,
+        Limpeza,
+        Manutenção
+    }
+}
